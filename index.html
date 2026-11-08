@@ -1,14 +1,92 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#f3f7f5"><title>《小小王国战记》隐私政策草稿</title>
-<style>:root{--ink:#172621;--muted:#60706a;--line:#dce5e1;--accent:#087d68}*{box-sizing:border-box}body{margin:0;background:#f3f7f5;color:var(--ink);font:16px/1.75 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif}header{text-align:center;padding:48px 18px 26px}h1{margin:8px 0;font-size:clamp(1.8rem,5vw,2.4rem);line-height:1.25}.badge{display:inline-block;padding:4px 12px;border:1px solid #e7bd72;border-radius:99px;background:#fff6e6;color:#80520d;font-size:.84rem;font-weight:700}header p,footer{color:var(--muted)}main{width:min(840px,calc(100% - 28px));margin:0 auto 48px;padding:clamp(22px,5vw,44px);border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 12px 36px #173d3010}.notice{padding:15px 18px;border-left:4px solid #d59427;border-radius:8px;background:#fff8eb;color:#664719}h2{margin:34px 0 10px;padding-bottom:8px;border-bottom:1px solid var(--line);font-size:1.28rem}p{margin:0 0 14px}li{margin:5px 0}a{color:var(--accent);overflow-wrap:anywhere}footer{text-align:center;padding:0 16px 28px;font-size:.88rem}@media(max-width:560px){header{padding-top:32px}main{width:calc(100% - 18px);border-radius:12px}}</style></head><body>
-<header><span class="badge">内部草稿 · 暂不可用于 TapTap 提交</span><h1>《小小王国战记》隐私政策</h1><p>TapTap Android 测试版 · 草稿版本 0.1.0-test2</p></header><main>
-<p class="notice"><strong>发布状态：待补齐并核验。</strong> 本草稿尚未覆盖 TapTap 未成年人合规认证 SDK 的最终数据流；不满 14 周岁监护人同意和广告限制流程未实现；TapADN 实际设备采集仍待真机核验。请勿作为正式政策提交。</p>
-<h2>一、运营者与范围</h2><p>《小小王国战记》（“本游戏”）由 <strong>许珑伟（个人）</strong> 运营。个人信息保护联系邮箱：<a href="mailto:1766809821@qq.com">1766809821@qq.com</a>。本草稿针对 TapTap Android 测试版、离线/局域网对局及玩家主动选择的 TapADN 激励视频。</p>
-<h2>二、游戏运行与联机</h2><p>当前游戏代码没有玩家注册账号、姓名/手机号档案、位置或通讯录读取、分析遥测和崩溃上报，也没有玩家档案或对局进度本地存档。此说明不涵盖 Android 系统、TapTap 平台或第三方 SDK 的独立处理。</p><p>真人对战采用玩家主机权威的局域网 ENet/UDP 直连。玩家输入房主 IP 地址和端口后，设备使用连接所需的网络地址，并交换席位、游戏指令及本局状态。游戏业务代码不保存该地址；对局状态只在运行期间处理。房主是玩家设备，不是运营方互联网服务器。</p>
-<h2>三、TapADN 激励视频</h2><p>玩家主动打开奖励面板并同意后，游戏才初始化 TapADN SDK（Android 5.3.2.0）并请求广告。当前只支持全屏激励视频，小窗暂不可用；广告播放期间对局继续运行。拒绝或关闭面板不影响游戏其他功能。</p><p>TapADN SDK 可能处理设备品牌/型号、系统版本、屏幕参数、语言/时区、CPU、可用存储、OAID、IP 地址、Wi-Fi 状态/信号、应用包名/版本、进程与前后台状态、广告交互、崩溃及性能数据，用于广告投放、效果衡量/归因、反作弊和 SDK 稳定性。字段、保存期限及合作方以实际启用模块和 <a href="https://ssp.dirichlet.cn/docs/agreement/" rel="noopener noreferrer">TapADN 隐私政策</a>为准。</p><p>游戏将电话状态、OAID、Wi-Fi 状态等自定义采集开关设为关闭，并限制个性化广告；但 TapADN 公开政策仍将 OAID 与 Wi-Fi 状态/信号列为必要信息。关闭开关后的实际传输及广告影响尚未真机核验，发布前需向 TapADN 确认。</p>
-<h2>四、广告奖励处理</h2><p>TapADN 客户端奖励回调通过后，观看设备把随机申请编号、观看秒数和本局席位信息，经现有局域网连接交给房主。房主检查对局状态、时长上限和重复申请，再决定 Gold、Wood 或 Food 的随机数量并同步资源。未完成广告或 SDK 拒绝时不发奖。</p><p>奖励不使用独立公网验证服务。房主能够维护本局资源状态并拦截重复申请，但不能独立证明访客设备实际播放了广告或准确核验观看秒数；奖励仅用于休闲玩法，不用于付费、提现或竞技排名。</p>
-<h2>五、保存与共享</h2><p>游戏自身的对局状态只在本局运行期间处理。TapADN SDK 在设备端按其服务处理广告所需信息，并可能依其政策与关联方、广告主、代理商及广告监测合作方共享必要信息；其具体保存期限以 TapADN 政策为准。本项目不会将奖励申请发送到独立公网奖励数据库。若最终 APK 增加其他 SDK 或网络服务，发布前须补充披露。</p>
-<h2>六、你的选择和权利</h2><p>你可以不看广告或关闭奖励面板。你可以通过 <a href="mailto:1766809821@qq.com">1766809821@qq.com</a> 联系运营者，申请查阅、复制、更正、删除个人信息、撤回同意或提出投诉。涉及 TapADN 或 TapTap 平台处理的数据，我们会按其相应流程协助办理；具体受理方式待 SDK 接入核实后补充。</p>
-<h2>七、未成年人保护</h2><p>本游戏拟面向全年龄用户。目前尚未接入 TapTap 实名/防沉迷合规认证，也没有不满 14 周岁用户的监护人同意和激励广告限制流程。完成 SDK 接入、测试并确定监护人行权方式前，本草稿不能作为上线政策。</p>
-<h2>八、更新与联系</h2><p>草稿版本：0.1.0-test2。正式发布日期、生效日期和政策网址待确认。正式版本有重大变更时，拟通过 TapTap 游戏页面公告通知。</p><p><strong>运营者：</strong>许珑伟（个人）<br><strong>联系邮箱：</strong><a href="mailto:1766809821@qq.com">1766809821@qq.com</a></p>
-<h2>参考资料</h2><ul><li><a href="https://ssp.dirichlet.cn/docs/dirichlet-sdk/sdk-guide/" rel="noopener noreferrer">TapADN SDK Android 接入文档</a></li><li><a href="https://ssp.dirichlet.cn/docs/compliance/" rel="noopener noreferrer">TapADN SDK 合规使用说明</a></li><li><a href="https://ssp.dirichlet.cn/docs/agreement/" rel="noopener noreferrer">TapADN SDK 隐私政策</a></li></ul></main><footer>此页为公开仓库中的政策审阅草稿，尚未生效 · 1766809821@qq.com</footer></body></html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f4f7f6">
+  <title>《小小王国战记》隐私政策草稿</title>
+  <style>
+    :root { color-scheme: light; --ink: #182522; --muted: #5d6b67; --line: #dce5e1; --accent: #087d68; --paper: #fff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f4f7f6; color: var(--ink); font: 16px/1.75 system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif; }
+    header { padding: 56px 24px 34px; text-align: center; }
+    header p { margin: 8px 0 0; color: var(--muted); }
+    h1 { margin: 0; font-size: clamp(1.75rem, 5vw, 2.5rem); line-height: 1.25; letter-spacing: .02em; }
+    .badge { display: inline-block; margin-bottom: 14px; padding: 4px 12px; border: 1px solid #e8b96c; border-radius: 999px; background: #fff6e6; color: #80520d; font-size: .82rem; font-weight: 700; }
+    main { width: min(860px, calc(100% - 32px)); margin: 0 auto 56px; padding: clamp(22px, 5vw, 48px); border: 1px solid var(--line); border-radius: 16px; background: var(--paper); box-shadow: 0 12px 36px #173d3010; }
+    .notice { margin: 0 0 28px; padding: 16px 18px; border-left: 4px solid #d59427; border-radius: 8px; background: #fff8eb; color: #664719; }
+    article h2 { margin: 38px 0 12px; padding-bottom: 9px; border-bottom: 1px solid var(--line); font-size: 1.35rem; line-height: 1.4; }
+    article h3 { margin: 26px 0 8px; font-size: 1.08rem; }
+    article p { margin: 0 0 16px; }
+    article ul { margin: 0 0 18px; padding-left: 1.35rem; }
+    article li { margin: 6px 0; padding-left: 3px; }
+    blockquote { margin: 0 0 22px; padding: 14px 18px; border-left: 3px solid var(--accent); background: #eff8f5; color: #304b43; }
+    a { color: var(--accent); text-underline-offset: 3px; overflow-wrap: anywhere; }
+    code { padding: 2px 5px; border-radius: 4px; background: #eef2f0; font-size: .9em; }
+    footer { padding: 0 16px 32px; color: var(--muted); text-align: center; font-size: .85rem; }
+    @media (max-width: 560px) { header { padding-top: 36px; } main { width: calc(100% - 20px); border-radius: 12px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="badge">内部草稿 · 暂不可用于 TapTap 提交</span>
+    <h1>《小小王国战记》隐私政策</h1>
+    <p>TapTap Android 测试版 · 草稿版本 0.1.0-test2</p>
+  </header>
+  <main>
+    <p class="notice" role="status"><strong>发布状态：待补齐并核验。</strong> TapTap 登录/未成年人合规认证接入、未满 14 周岁监护人同意和广告限制流程，以及 TapADN 真机数据行为仍待验证。完成前请勿把此页作为正式政策提交。</p>
+    <article>
+<blockquote><strong>内部草稿，不得直接发布。</strong> 下方已填入运营者提供的主体、联系邮箱、全年龄范围和 TapTap 页面通知方式；其余“待核实”项必须先与最终 APK 和后台设置核对。此处“服务端”指对局中的玩家房主设备，不是公网服务器。现有草稿覆盖游戏本地/局域网功能和 TapADN 激励视频，但还未覆盖必须接入的 TapTap 合规认证 SDK，也不能代替运营者对最终政策的审核。</blockquote>
+<h2>发布前必须补齐</h2>
+<ul>
+<li>游戏运营者/个人信息处理者：许珑伟（个人）</li>
+<li>个人信息保护联系邮箱：1766809821@qq.com。运营者未提供公开联系地址，本草稿不要求填写住宅地址。</li>
+<li>草稿版本：<code>0.1.0-test2</code>；生效日期、公开 HTTPS 地址：[网页完成并核对后填写]</li>
+<li>与 TapADN 账号确认本应用实际启用的 SDK 模块、广告合作方及数据字段；尤其确认 SDK 公开政策列为“必选”的 OAID、Wi‑Fi 状态/信号，在本版本将 <code>isCanUseOaid</code> 和 <code>isCanUseWifiState</code> 设为 <code>false</code> 后究竟是否仍被传输，以及对广告请求的影响：[待设备验证/向 TapADN 确认]</li>
+<li>用户确认面向全年龄用户。TapTap 官方要求提供 APK 测试/下载前完善未成年人防沉迷系统并提交接入证明；当前工程尚无 TapTap 登录或合规认证 SDK。TapADN 对未满 14 周岁用户个人信息的处理及监护人同意/广告关闭流程也未在应用中实现；完成对应接入前不得将本条作为已生效承诺。</li>
+<li>TapTap 合规认证服务、应用配置和开发者中心实际测试方式：[需连接账号配置并核实]</li>
+</ul>
+<h2>一、运营主体与适用范围</h2>
+<p>本政策由 <strong>许珑伟（个人）</strong>（“我们”）制定，个人信息保护联系邮箱为 <strong>1766809821@qq.com</strong>。本草稿适用于《小小王国战记》TapTap Android 测试版的游戏本地/局域网功能与可选 TapADN 激励视频；TapTap 合规认证 SDK 接入后还须补充其账号、身份/年龄认证数据及保存方式。</p>
+<p>激励视频只在 Android 联机对局中提供。玩家主动打开奖励面板并阅读、勾选同意后，游戏才请求初始化 TapADN SDK。当前接入只支持全屏激励视频；小窗选项暂不可用，也不会切换或扩展成全屏。播放期间对局逻辑继续运行。视频完成且 TapADN SDK <code>onRewardVerify</code> 接受该广告后，观看玩家向本局房主提交奖励申请；房主依据当前对局、玩家席位、观看秒数上限及申请去重情况，按观看时间决定随机资源奖励并写入权威对局状态。未完成或 SDK 拒绝时不发放奖励。拒绝同意或关闭面板不影响游戏的其他可用功能。</p>
+<h2>二、我们和第三方处理的信息</h2>
+<h3>1. 游戏自身与联机功能</h3>
+<p>按当前游戏运行代码核查，游戏没有玩家注册/登录、姓名或手机号档案、位置/通讯录采集、广告以外的分析或崩溃上报实现；没有实现将玩家档案或对局进度写入本地存档的功能。对局状态仅在本次运行期间由游戏处理。该代码核查不涵盖 Android 系统、TapADN SDK 或 TapTap 平台可能进行的独立处理。</p>
+<p>真人对战为玩家主机权威的局域网直连。玩家可在大厅输入房主的 IP 地址和端口；主客机通过 ENet/UDP 交换玩家席位、游戏指令及单位/建筑/资源等对局状态。因此，建立网络连接会使用连接端的网络地址，房主和访客会在直连中处理建立连接所需的对端网络信息。当前游戏代码没有将这些网络地址写入玩家档案或本地日志。离线对局状态也只在运行期间存在。</p>
+<p>玩家选择激励视频后，广告完成回调和奖励申请会在本局设备间传递随机 claim ID、观看秒数和已有的玩家席位信息。claim ID 用于房主阻止同一个申请重复发奖；奖励申请通过本局现有 ENet/UDP 联机连接发送，不会因此请求独立的公网奖励验证服务。该设计由房主维持本局游戏状态权威，但不能独立证明访客设备实际播放了广告；奖励只适用于休闲游戏，不用于付费、提现或竞技排名。</p>
+<h3>2. TapADN SDK</h3>
+<p>为请求、播放和衡量激励视频，并进行广告反作弊、归因和服务稳定性分析，我们通过集成的 <strong>TapADN SDK（Android 5.3.2.0）</strong>，向 SDK 提供方 <strong>上海艾得蒽数字科技有限公司及其关联方</strong> 提供 SDK 正常运行所需的应用环境。SDK 由其在设备端自行采集信息；具体处理以实际 SDK 版本和 TapADN 后台功能配置为准。</p>
+<p>TapADN 公开资料列出的 Android 必要信息包括：设备品牌、型号、系统版本、屏幕密度和分辨率、设备语言与时区、CPU 信息、可用存储空间、OAID；网络信息（IP 地址、Wi‑Fi 状态和信号强度）；应用包名、版本、运行中的进程及前后台状态；广告展示、点击和转化等交互数据；崩溃及性能数据。用途包括广告投放、广告效果监测/归因、反作弊及 SDK 稳定性分析。TapADN 可能按其政策与关联方、广告主、代理商、广告监测等合作方共享实现广告投放和效果分析所需的信息；详情见其隐私政策。</p>
+<p>TapADN 公开资料还列出可选信息或权限，例如 IMEI/Android ID/AAID/VAID、设备硬件序列号（Serial）、位置、软件列表、传感器、设备 MAC、SSID/BSSID 和外部存储。当前游戏的 11 个自定义采集开关均传入关闭值，不请求位置、电话状态、软件列表、传感器或外部存储权限；其中 TapADN Android SDK 文档称 <code>isCanUsePhoneState=false</code> 会阻止读取或使用缓存的 Serial，<code>isCanUseOaid=false</code> 会关闭 SDK 自行获取 OAID，<code>isCanUseWifiState=false</code> 会关闭 Wi‑Fi 状态访问并限制 BSSID/SSID；广告个性化设置始终为限制状态，不提供个性化广告启用入口。<strong>但 TapADN 当前公开隐私政策把 OAID 和 Wi‑Fi 状态/信号列为必选信息，而本项目明确关闭相应 SDK 开关。应用尚未在连接设备上验证 SDK 实际请求，因此无法确认 SDK 是否仍发送这些字段、是否影响广告填充，也不能仅凭代码配置收窄政策披露。上线前必须用真实 SDK/设备核实并向 TapADN 确认；在确认前按其公开政策保留这些字段披露。</strong> 限制个性化广告不等于停止广告投放或停止 SDK 为基础广告服务处理其必要信息。</p>
+<p>TapADN SDK 提供方的主体名称、信息字段、目的及隐私政策以 <a href="https://ssp.dirichlet.cn/docs/agreement/" rel="noopener noreferrer">TapADN SDK 隐私政策</a> 和 <a href="https://ssp.dirichlet.cn/docs/compliance/" rel="noopener noreferrer">TapADN SDK 合规使用说明</a> 为准。TapADN 声明其在境内运营中收集的信息存储在中国境内，并按提供服务所需期间保存。当前游戏奖励流程不使用独立公网奖励验证服务。</p>
+<h3>3. 本局奖励处理</h3>
+<p>TapADN 客户端 <code>onRewardVerify</code> 接受后，观看设备通过本局 ENet/UDP 连接向玩家房主提交一个随机 claim ID 和客户端根据广告展示到视频完成间隔计出的秒数。房主检查申请是否来自对局中的对应席位、对局是否仍在进行、秒数是否有效并封顶、claim ID 是否已用过；通过后由房主决定数量和 Gold/Wood/Food 资源类型，并在权威对局状态中写入及同步结果。claim ID、观看秒数和奖励结果只在本局联机消息/运行状态中处理，不写入独立的公网奖励数据库。</p>
+<p>对局房主本身是玩家设备，不是独立运营方服务器。房主可维护资源状态权威及重复申请检查，但无法独立认证访客设备收到的广告 SDK 回调或客户端报告的秒数。因此，该机制只适用于休闲奖励，不应描述为防作弊或独立服务端认证。游戏不据此处理付费、提现或竞技排名。</p>
+<h3>4. 对局网络</h3>
+<p>真人对战采用同一局域网内的 ENet/UDP 直连，不使用本项目自建的互联网匹配服务器。玩家需要输入房主 IPv4 地址和端口；主客机会交换对局指令与状态快照。由此产生的连接地址用于建立本次连接；游戏业务代码不保存该地址。跨互联网的连接能力目前不支持。若最终平台网络实现与此不同，发布前须按目标设备重新核对并修订。</p>
+<h2>三、处理目的、方式和保存期限</h2>
+<p>游戏自身的联机状态仅在对局运行期间处理，当前游戏代码不建立本地玩家档案或对局存档。我们仅在玩家主动选择观看激励视频并同意后，为广告请求/播放、广告效果衡量以及本局奖励处理使用上述信息。SDK 在 Android 设备端按其接口采集；奖励 claim 和对局资源状态通过本局 ENet/UDP 连接由房主处理并随本局状态保留。TapADN 的保存规则见其政策；本项目不将 claim 或奖励记录发送到独立公网奖励验证服务。</p>
+<h2>四、共享、委托处理与跨境</h2>
+<p>TapADN SDK 向上海艾得蒽数字科技有限公司及其关联方提供广告投放、监测、归因、反作弊和稳定性分析所需信息；TapADN 可能按其政策与广告合作方共享相关信息。本项目奖励 claim 由当前对局参与设备通过局域网直连传递，不经独立奖励验证托管方。是否存在其他 SDK、广告聚合组件或境外接收方，须按最终 APK 和账号实际配置确认；未经核实不得表述为“不会共享”或“不会出境”。</p>
+<h2>五、你的权利和选择</h2>
+<p>你可以在查看奖励面板时选择不同意或关闭面板，不启用该次广告服务；个性化广告已在当前接入中设置为限制状态。你可以通过 <strong>1766809821@qq.com</strong> 联系我们，申请查阅、复制、更正、删除个人信息，撤回同意或提出投诉。若请求涉及 TapADN SDK 数据，我们会根据 TapADN 的配合流程协助处理；TapTap 合规认证数据请求还需按其 SDK/平台规则补充办理路径。我们会按适用法律及时处理并答复。</p>
+<h2>六、未成年人保护</h2>
+<p>本游戏拟面向全年龄用户。当前游戏尚未接入 TapTap 实名/防沉迷服务，也未设置不满 14 周岁用户的监护人同意和激励广告限制机制。TapTap 官方要求提供包体测试或下载前完善未成年人防沉迷；不满 14 周岁未成年人的个人信息依法属于敏感个人信息，处理时应取得监护人同意。必须先接入并测试相应机制、明确监护人行权流程，再根据真实的数据流重写本节；当前草稿不能用于上线。</p>
+<h2>七、安全措施</h2>
+<p>本局奖励申请通过游戏现有的 ENet/UDP 联机连接交给房主，并由房主拒绝重复 claim；此处不使用额外 HTTPS 奖励验证服务。TapADN SDK 的媒体初始化参数由 Android 应用按其接入方式配置；本项目当前未启用独立 S2S SecurityKey 验证。若将来更改奖励校验方式，应先重新核查数据流、密钥保管及本政策披露，再启用相应服务。</p>
+<h2>八、政策更新与联系</h2>
+<p>政策更新日期：<strong>[发布前填写]</strong>；生效日期：<strong>[发布前填写]</strong>；版本：<strong>0.1.0-test2（草稿）</strong>。重大变化时，拟通过 <strong>TapTap 游戏页面公告</strong> 告知，并在需要时重新取得同意。</p>
+<p>个人信息保护联系主体：<strong>许珑伟（个人）</strong> 联系邮箱：<strong>1766809821@qq.com</strong></p>
+<h2>参考资料（起草依据）</h2>
+<ul>
+<li><a href="https://ssp.dirichlet.cn/docs/dirichlet-sdk/sdk-guide/" rel="noopener noreferrer">TapADN SDK Android 接入文档</a></li>
+<li><a href="https://ssp.dirichlet.cn/docs/compliance/" rel="noopener noreferrer">TapADN SDK 合规使用说明</a></li>
+<li><a href="https://ssp.dirichlet.cn/docs/agreement/" rel="noopener noreferrer">TapADN SDK 隐私政策</a></li>
+</ul>
+<p>上述资料在 2026-11-07 复核。SDK 隐私政策当前列明 OAID、Wi‑Fi 状态/信号、IP、广告交互及性能数据为必选字段，Serial 为可选字段；Android 接入文档说明采集开关可限制其中部分信息。上线前仍须核对实际 AAR、最终设置、设备网络行为和 TapADN 后台启用的广告链路。</p>
+    </article>
+  </main>
+  <footer>联系邮箱：1766809821@qq.com · 本页面当前为内部审阅草稿</footer>
+</body>
+</html>
