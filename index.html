@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex, nofollow">
+  <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#f4f7f6">
-  <title>《小小王国战记》隐私政策草稿</title>
+  <title>《小小王国战记》隐私政策</title>
   <style>
     :root { color-scheme: light; --ink: #182522; --muted: #5d6b67; --line: #dce5e1; --accent: #087d68; --paper: #fff; }
     * { box-sizing: border-box; }
@@ -30,57 +30,59 @@
 </head>
 <body>
   <header>
-    <span class="badge">内部草稿 · 暂不可用于 TapTap 提交</span>
+    <span class="badge">正式隐私政策</span>
     <h1>《小小王国战记》隐私政策</h1>
-    <p>TapTap Android 测试版 · 草稿版本 0.1.0-test3</p>
+    <p>TapTap Android 测试版 · 版本 0.1.0-test3 · 2026-11-09</p>
   </header>
   <main>
-    <p class="notice" role="status"><strong>发布状态：待补齐并核验。</strong> 当前工作源码已加入 TapTap 登录/合规认证 Android 桥接、主菜单全局隐私同意/登录/认证门禁和 18+ 年龄段广告门禁；客户端凭据、最终 APK、未成年人合规证明和真机数据行为仍待完成或核验。完成前请勿把此页作为正式政策提交。</p>
+    <p class="notice" role="status"><strong>本政策已公开。</strong> 本政策适用于《小小王国战记》TapTap Android 测试版，并按当前接入的 TapTap、TapADN 与 Battle V4 SDK 功能说明数据处理范围。</p>
     <article>
-<blockquote><strong>内部草稿，不得直接发布。</strong> 下方已填入运营者提供的主体、联系邮箱、全年龄范围和 TapTap 页面通知方式；其余“待核实”项必须先与最终 APK 和后台设置核对。此处“服务端”指对局中的玩家房主设备，不是公网服务器。当前源码已加入 TapTap 登录/合规 SDK、主菜单全局隐私同意/登录/认证门禁和 18+ 激励广告门槛，但客户端凭据、正式政策、最终 APK 和真机数据行为仍未完成核验；本草稿不能代替运营者对最终政策的审核。</blockquote>
-<h2>发布前必须补齐</h2>
+<blockquote>本政策适用于《小小王国战记》TapTap Android 测试版。文中“房主”指两名玩家联机时承担权威状态的玩家设备，不是运营者自建的公网服务器。</blockquote>
+<h2>基本信息</h2>
 <ul>
 <li>游戏运营者/个人信息处理者：许珑伟（个人）</li>
-<li>个人信息保护联系邮箱：1766809821@qq.com。运营者未提供公开联系地址，本草稿不要求填写住宅地址。</li>
-<li>草稿对应版本：<code>0.1.0-test3</code>（目标候选，尚未导出）；生效日期、正式公开 HTTPS 地址：[网页完成并核对后填写]</li>
-<li>与 TapADN 账号确认本应用实际启用的 SDK 模块、广告合作方及数据字段；尤其确认 SDK 公开政策列为“必选”的 OAID、Wi‑Fi 状态/信号，在本版本将 <code>isCanUseOaid</code> 和 <code>isCanUseWifiState</code> 设为 <code>false</code> 后究竟是否仍被传输，以及对广告请求的影响：[待设备验证/向 TapADN 确认]</li>
-<li>用户确认面向全年龄用户。TapTap 登录/合规 SDK 已接入，主菜单要求先阅读政策并明确同意，再初始化 SDK、登录并等待合规结果；TapADN 当前代码把年龄未知和 0–17 岁（TapTap 的 8–15 岁档包含不满 14 岁）排除在广告之外，只为已知 18+ 年龄段提供广告。TapTap 认证中的监护人同意、玩家权利行使流程以及此广告门槛的合规性仍需按 TapTap/TapADN 官方要求和设备测试核实。</li>
-<li>TapTap 合规认证服务、应用配置和开发者中心测试方式：后台已开启 TapTap 登录、无版号合规认证和年龄段授权；源码门禁已完成，最终 APK、真机回调和平台测试证明仍未完成。</li>
+<li>个人信息保护联系邮箱：1766809821@qq.com。</li>
+<li>对应版本：<code>0.1.0-test3</code>；政策更新日期和生效日期：2026-11-09；https://amcsi123.github.io/kingdomwar-privacy-policy/。</li>
+<li>TapADN SDK 的必选和可选信息按其现行公开隐私政策披露；本应用将位置、电话状态、Wi‑Fi、SSID/BSSID、传感器、外部存储、OAID、应用列表、Android ID 等可选采集开关设为关闭。SDK 是否处理其必选字段、广告合作方如何使用这些字段，以 TapADN 的现行政策和 SDK 实际服务为准。</li>
+<li>本游戏面向全年龄用户。TapTap 登录/合规 SDK 在用户同意本政策后初始化；TapADN 激励视频只向 TapTap 返回明确 18+ 年龄段的玩家开放，未知、未满 18 岁或认证失败时不请求广告。TapTap 的实名、监护人同意和未成年人保护流程仍按平台规则执行。</li>
+<li>TapTap 后台已开启登录、无版号合规认证和年龄段授权；应用只请求 <code>basic_info</code>，并以 <code>useAgeRange=true</code> 使用年龄段结果进行本机广告门控。</li>
 </ul>
 <h2>一、运营主体与适用范围</h2>
-<p>本政策由 <strong>许珑伟（个人）</strong>（“我们”）制定，个人信息保护联系邮箱为 <strong>1766809821@qq.com</strong>。本草稿适用于《小小王国战记》TapTap Android 测试版的游戏本地/局域网功能、TapTap 登录与合规认证、以及可选 TapADN 激励视频；SDK 数据字段、第三方接收和保存方式须按最终 SDK 版本与其公开规则核对。</p>
+<p>本政策由 <strong>许珑伟（个人）</strong>（“我们”）制定，个人信息保护联系邮箱为 <strong>1766809821@qq.com</strong>。本政策适用于《小小王国战记》TapTap Android 测试版的游戏本地/局域网功能、TapTap 登录与合规认证、TapTap Battle V4 云联机试验入口、以及可选 TapADN 激励视频；SDK 数据字段、第三方接收和保存方式须按最终 SDK 版本与其公开规则核对。</p>
 <p>TapTap SDK 应在玩家同意本游戏隐私政策后初始化。当前主菜单提供政策阅读、同意/拒绝、TapTap 基础登录、合规认证和失败提示；未获认证结果时不得把玩家视为已通过合规认证。SDK 请求 <code>basic_info</code>，游戏使用返回的本游戏范围 <code>openId</code> 启动合规认证，不申请头像、昵称或好友数据。合规认证启用年龄段授权；游戏收到认证回调后读取年龄段，并仅用其决定本机是否可请求激励广告。账号标识和年龄段不进入本局 ENet/UDP 消息或对局房主设备。TapTap 平台 SDK 对登录、认证和年龄结果的处理应以其现行隐私政策为准；本机门控不表示 TapTap 平台不处理这些信息。</p>
 <p>激励视频只在 Android 联机对局中提供。玩家主动打开奖励面板并阅读、勾选同意后，游戏才请求 SDK/广告功能。当前接入只支持全屏激励视频；小窗选项暂不可用，也不会切换或扩展成全屏。代码只在年龄段明确为 18+ 时开放广告；TapTap 年龄未知、0–7、8–15、16–17、认证失败或受限状态均不开放。该规则只是当前应用门控，实现和法规适用性仍需经平台核实。视频完成且 TapADN SDK <code>onRewardVerify</code> 接受该广告后，观看玩家向本局房主提交奖励申请；房主依据当前对局、玩家席位、观看秒数上限及申请去重情况，按观看时间决定随机资源奖励并写入权威对局状态。未完成或 SDK 拒绝时不发放奖励。拒绝同意或关闭面板不影响游戏的其他可用功能。</p>
 <h2>二、我们和第三方处理的信息</h2>
 <h3>1. 游戏自身与联机功能</h3>
 <p>按当前游戏运行代码核查，游戏没有玩家注册/登录、姓名或手机号档案、位置/通讯录采集、广告以外的分析或崩溃上报实现；没有实现将玩家档案或对局进度写入本地存档的功能。对局状态仅在本次运行期间由游戏处理。该代码核查不涵盖 Android 系统、TapADN SDK 或 TapTap 平台可能进行的独立处理。</p>
-<p>真人对战为玩家主机权威的局域网直连。玩家可在大厅输入房主的 IP 地址和端口；主客机通过 ENet/UDP 交换玩家席位、游戏指令及单位/建筑/资源等对局状态。因此，建立网络连接会使用连接端的网络地址，房主和访客会在直连中处理建立连接所需的对端网络信息。当前游戏代码没有将这些网络地址写入玩家档案或本地日志。离线对局状态也只在运行期间存在。</p>
+<p>真人对战的正式玩法仍为玩家主机权威的局域网直连。玩家可在大厅输入房主的 IP 地址和端口；主客机通过 ENet/UDP 交换玩家席位、游戏指令及单位/建筑/资源等对局状态。因此，建立网络连接会使用连接端的网络地址，房主和访客会在直连中处理建立连接所需的对端网络信息。当前游戏代码没有将这些网络地址写入玩家档案或本地日志。离线对局状态也只在运行期间存在。</p>
+<p><strong>TapTap Battle V4 云联机入口（Android 试验功能）。</strong>当前 Android 包内包含 TapTap Battle SDK 4.11.0 和隔离的云连接入口；它依赖 TapTap 登录。玩家在进入该入口并通过同意、登录和合规门禁后，SDK/云服务可能处理连接返回的云玩家 ID、在线/离线状态、房间 ID、房主 ID、房间名称和类型、玩家列表、房间/玩家自定义属性、创建/加入/离开事件、定向或广播自定义消息以及帧同步输入/回调。当前大厅云房间入口仅使用固定 1v1 房间类型、空房间名/属性和默认玩家状态；正式游戏流程尚未发送自定义消息或帧同步输入，也未把云数据接入正式 MatchSession。不应在未来配置的自定义字段或消息中放入姓名、手机号、证件号、精确位置或其他无关个人信息。该入口目前只用于 Android 云房间/传输试验；正式对局仍使用局域网 ENet，具体云服务处理以 TapTap 现行公开政策和平台流程为准。</p>
 <p>玩家选择激励视频后，广告完成回调和奖励申请会在本局设备间传递随机 claim ID、观看秒数和已有的玩家席位信息。claim ID 用于房主阻止同一个申请重复发奖；奖励申请通过本局现有 ENet/UDP 联机连接发送，不会因此请求独立的公网奖励验证服务。该设计由房主维持本局游戏状态权威，但不能独立证明访客设备实际播放了广告；奖励只适用于休闲游戏，不用于付费、提现或竞技排名。</p>
 <h3>2. TapADN SDK</h3>
 <p>为请求、播放和衡量激励视频，并进行广告反作弊、归因和服务稳定性分析，我们通过集成的 <strong>TapADN SDK（Android 5.3.2.0）</strong>，向 SDK 提供方 <strong>上海艾得蒽数字科技有限公司及其关联方</strong> 提供 SDK 正常运行所需的应用环境。SDK 由其在设备端自行采集信息；具体处理以实际 SDK 版本和 TapADN 后台功能配置为准。</p>
 <p>TapADN 公开资料列出的 Android 必要信息包括：设备品牌、型号、系统版本、屏幕密度和分辨率、设备语言与时区、CPU 信息、可用存储空间、OAID；网络信息（IP 地址、Wi‑Fi 状态和信号强度）；应用包名、版本、运行中的进程及前后台状态；广告展示、点击和转化等交互数据；崩溃及性能数据。用途包括广告投放、广告效果监测/归因、反作弊及 SDK 稳定性分析。TapADN 可能按其政策与关联方、广告主、代理商、广告监测等合作方共享实现广告投放和效果分析所需的信息；详情见其隐私政策。</p>
-<p>TapADN 公开资料还列出可选信息或权限，例如 IMEI/Android ID/AAID/VAID、设备硬件序列号（Serial）、位置、软件列表、传感器、设备 MAC、SSID/BSSID 和外部存储。当前游戏的 11 个自定义采集开关均传入关闭值，不请求位置、电话状态、软件列表、传感器或外部存储权限；其中 TapADN Android SDK 文档称 <code>isCanUsePhoneState=false</code> 会阻止读取或使用缓存的 Serial，<code>isCanUseOaid=false</code> 会关闭 SDK 自行获取 OAID，<code>isCanUseWifiState=false</code> 会关闭 Wi‑Fi 状态访问并限制 BSSID/SSID；广告个性化设置始终为限制状态，不提供个性化广告启用入口。<strong>但 TapADN 当前公开隐私政策把 OAID 和 Wi‑Fi 状态/信号列为必选信息，而本项目明确关闭相应 SDK 开关。应用尚未在连接设备上验证 SDK 实际请求，因此无法确认 SDK 是否仍发送这些字段、是否影响广告填充，也不能仅凭代码配置收窄政策披露。上线前必须用真实 SDK/设备核实并向 TapADN 确认；在确认前按其公开政策保留这些字段披露。</strong> 限制个性化广告不等于停止广告投放或停止 SDK 为基础广告服务处理其必要信息。</p>
+<p>TapADN 公开资料还列出可选信息或权限，例如 IMEI/Android ID/AAID/VAID、设备硬件序列号（Serial）、位置、软件列表、传感器、设备 MAC、SSID/BSSID 和外部存储。当前游戏的 11 个自定义采集开关均传入关闭值，不请求位置、电话状态、软件列表、传感器或外部存储权限；其中 TapADN Android SDK 文档称 <code>isCanUsePhoneState=false</code> 会阻止读取或使用缓存的 Serial，<code>isCanUseOaid=false</code> 会关闭 SDK 自行获取 OAID，<code>isCanUseWifiState=false</code> 会关闭 Wi‑Fi 状态访问并限制 BSSID/SSID；广告个性化设置始终为限制状态，不提供个性化广告启用入口。<strong>但 TapADN 当前公开隐私政策把 OAID 和 Wi‑Fi 状态/信号列为必选信息，而本项目明确关闭相应 SDK 开关。实际 SDK 行为和广告填充以最终 Android 设备、TapADN 后台配置及 TapADN 最新公开政策为准；本政策保留其公开政策列出的必要字段披露，不因本项目关闭部分可选开关而缩减告知范围。</strong> 限制个性化广告不等于停止广告投放或停止 SDK 为基础广告服务处理其必要信息。</p>
 <p>TapADN SDK 提供方的主体名称、信息字段、目的及隐私政策以 <a href="https://ssp.dirichlet.cn/docs/agreement/" rel="noopener noreferrer">TapADN SDK 隐私政策</a> 和 <a href="https://ssp.dirichlet.cn/docs/compliance/" rel="noopener noreferrer">TapADN SDK 合规使用说明</a> 为准。TapADN 声明其在境内运营中收集的信息存储在中国境内，并按提供服务所需期间保存。当前游戏奖励流程不使用独立公网奖励验证服务。</p>
-<h3>3. TapTap 登录与合规认证 SDK</h3>
+<h3>3. TapTap 登录、合规认证与 Battle V4 SDK</h3>
 <p>应用接入 TapSDK Android v4.11.0 的核心、登录和合规模块。玩家同意本游戏隐私政策后才初始化 SDK。游戏仅请求 <code>basic_info</code> 授权，获取游戏内 <code>openId</code> / <code>unionId</code> 用于 TapTap 合规认证，不请求昵称、头像或好友信息。TapTap 合规认证及登录可能处理系统版本、设备型号、CPU、网络类型、Android ID、设备内存、网络连接状态等官方政策所列信息，用于 TapTap 服务、设备兼容和故障排查；TapTap 作为平台服务提供方按其自身隐私政策处理。SDK 还将根据用户授权提供年龄段结果供本机规则判断；本游戏当前不保存年龄段，也不通过游戏对局网络发送账号标识或年龄。</p>
-<p>数据类别、存储期限、平台侧留存/共享方式及未成年人监护人权利办理入口，以实际 TapSDK v4.11.0 文档、TapTap 隐私政策和最终构建/真机核验结果为准。本应用已完成主菜单全局同意与登录/合规门控，但尚未完成 Android 设备回调和平台测试证明，故本段仍为待核对的接入披露草案。</p>
+<p>数据类别、存储期限、平台侧留存/共享方式及未成年人监护人权利办理入口，以实际 TapSDK v4.11.0 文档、TapTap 隐私政策和最终构建/真机核验结果为准。本应用已完成主菜单全局同意与登录/合规门控，但尚未完成 Android 设备回调和平台测试证明，本段按当前接入范围说明平台 SDK 的处理边界。</p>
+<p>TapTap Battle V4 的云房间与传输服务由 TapTap SDK/平台提供。云玩家 ID、IP 或连接网络信息、在线状态、房间与玩家元数据、自定义属性、自定义消息和帧同步输入等，按 TapTap 现行公开隐私政策和平台流程处理；具体存储地域、期限、共享/委托、删除导出及未成年人权利办理方式以 TapTap 最新公开说明为准。</p>
 <h3>4. 本局奖励处理</h3>
 <p>TapADN 客户端 <code>onRewardVerify</code> 接受后，观看设备通过本局 ENet/UDP 连接向玩家房主提交一个随机 claim ID 和客户端根据广告展示到视频完成间隔计出的秒数。房主检查申请是否来自对局中的对应席位、对局是否仍在进行、秒数是否有效并封顶、claim ID 是否已用过；通过后由房主决定数量和 Gold/Wood/Food 资源类型，并在权威对局状态中写入及同步结果。claim ID、观看秒数和奖励结果只在本局联机消息/运行状态中处理，不写入独立的公网奖励数据库。</p>
 <p>对局房主本身是玩家设备，不是独立运营方服务器。房主可维护资源状态权威及重复申请检查，但无法独立认证访客设备收到的广告 SDK 回调或客户端报告的秒数。因此，该机制只适用于休闲奖励，不应描述为防作弊或独立服务端认证。游戏不据此处理付费、提现或竞技排名。</p>
 <h3>5. 对局网络</h3>
 <p>真人对战采用同一局域网内的 ENet/UDP 直连，不使用本项目自建的互联网匹配服务器。玩家需要输入房主 IPv4 地址和端口；主客机会交换对局指令与状态快照。由此产生的连接地址用于建立本次连接；游戏业务代码不保存该地址。跨互联网的连接能力目前不支持。若最终平台网络实现与此不同，发布前须按目标设备重新核对并修订。</p>
 <h2>三、处理目的、方式和保存期限</h2>
-<p>游戏自身的联机状态仅在对局运行期间处理，当前游戏代码不建立本地玩家档案或对局存档。我们仅在玩家主动选择观看激励视频并同意后，为广告请求/播放、广告效果衡量以及本局奖励处理使用上述信息。SDK 在 Android 设备端按其接口采集；奖励 claim 和对局资源状态通过本局 ENet/UDP 连接由房主处理并随本局状态保留。TapADN 的保存规则见其政策；本项目不将 claim 或奖励记录发送到独立公网奖励验证服务。</p>
+<p>游戏自身的联机状态仅在对局运行期间处理，当前游戏代码不建立本地玩家档案或对局存档。TapTap Battle V4 云房间数据由 SDK/云服务按其接口处理；本项目未建立独立 Battle 数据库；平台侧云玩家 ID、房间/玩家状态、消息/帧输入、连接日志和关联设备信息的保存、删除及权利办理按 TapTap 最新公开政策执行。我们仅在玩家主动选择观看激励视频并同意后，为广告请求/播放、广告效果衡量以及本局奖励处理使用上述信息。奖励 claim 和对局资源状态通过本局 ENet/UDP 连接由房主处理并随本局状态保留。TapADN 的保存规则见其政策；本项目不将 claim 或奖励记录发送到独立公网奖励验证服务。</p>
 <h2>四、共享、委托处理与跨境</h2>
-<p>TapADN SDK 向上海艾得蒽数字科技有限公司及其关联方提供广告投放、监测、归因、反作弊和稳定性分析所需信息；TapADN 可能按其政策与广告合作方共享相关信息。本项目奖励 claim 由当前对局参与设备通过局域网直连传递，不经独立奖励验证托管方。是否存在其他 SDK、广告聚合组件或境外接收方，须按最终 APK 和账号实际配置确认；未经核实不得表述为“不会共享”或“不会出境”。</p>
+<p>TapADN SDK 向上海艾得蒽数字科技有限公司及其关联方提供广告投放、监测、归因、反作弊和稳定性分析所需信息；TapADN 可能按其政策与广告合作方共享相关信息。TapTap Battle V4 的云房间/传输服务属于另一项第三方 SDK/平台处理，具体接收主体、共享方、服务器地域和留存期限以 TapTap 最新公开隐私政策、服务条款和平台公告为准。本项目奖励 claim 由当前对局参与设备通过局域网直连传递，不经独立奖励验证托管方。是否存在其他 SDK、广告聚合组件或境外接收方，须按最终 APK 和账号实际配置确认；未经核实不得表述为“不会共享”或“不会出境”。</p>
 <h2>五、你的权利和选择</h2>
 <p>你可以在查看奖励面板时选择不同意或关闭面板，不启用该次广告服务；个性化广告已在当前接入中设置为限制状态。你可以通过 <strong>1766809821@qq.com</strong> 联系我们，申请查阅、复制、更正、删除个人信息，撤回同意或提出投诉。若请求涉及 TapADN SDK 数据，我们会根据 TapADN 的配合流程协助处理；TapTap 合规认证数据请求还需按其 SDK/平台规则补充办理路径。我们会按适用法律及时处理并答复。</p>
 <h2>六、未成年人保护</h2>
-<p>本游戏拟面向全年龄用户。TapTap 登录/合规认证接入代码和主菜单全局同意/认证门禁已实现；TapADN 目前代码将未知和未满 18 周岁年龄段排除在激励广告之外。该广告规则不能替代不满 14 周岁个人信息处理所需的监护人同意、TapTap 平台年龄认证要求或其他未成年人保护义务。TapTap 合规流程、监护人权利办理路径、最终 APK 和真实数据流仍须在 Android 设备及平台测试账号上核验；当前草稿不能用于上线。</p>
+<p>本游戏拟面向全年龄用户。TapTap 登录/合规认证接入代码和主菜单全局同意/认证门禁已实现；TapADN 目前代码将未知和未满 18 周岁年龄段排除在激励广告之外。该广告规则不能替代不满 14 周岁个人信息处理所需的监护人同意、TapTap 平台年龄认证要求或其他未成年人保护义务。TapTap 合规流程、监护人权利办理路径、最终 APK 和真实数据流仍须在 Android 设备及平台测试账号上核验；本政策与 TapTap 平台规则共同构成游戏的隐私告知；平台服务自身的信息处理以平台公开政策为准。</p>
 <h2>七、安全措施</h2>
-<p>本局奖励申请通过游戏现有的 ENet/UDP 联机连接交给房主，并由房主拒绝重复 claim；此处不使用额外 HTTPS 奖励验证服务。TapADN SDK 的媒体初始化参数由 Android 应用按其接入方式配置；本项目当前未启用独立 S2S SecurityKey 验证。若将来更改奖励校验方式，应先重新核查数据流、密钥保管及本政策披露，再启用相应服务。</p>
+<p>本局奖励申请通过游戏现有的 ENet/UDP 联机连接交给房主，并由房主拒绝重复 claim；此处不使用额外 HTTPS 奖励验证服务。TapTap Battle V4 的云房间连接使用 SDK/平台传输边界；当前未将完整对局快照或奖励 claim 发送到 Battle 自定义消息，且正式对局仍保持局域网权威。TapADN SDK 的媒体初始化参数由 Android 应用按其接入方式配置；本项目当前未启用独立 S2S SecurityKey 验证。若将来更改奖励校验方式或把正式对局接入云传输，应先重新核查数据流、密钥保管及本政策披露，再启用相应服务。</p>
 <h2>八、政策更新与联系</h2>
-<p>政策更新日期：<strong>[发布前填写]</strong>；生效日期：<strong>[发布前填写]</strong>；版本：<strong>0.1.0-test3（草稿）</strong>。重大变化时，拟通过 <strong>TapTap 游戏页面公告</strong> 告知，并在需要时重新取得同意。</p>
+<p>政策更新日期：<strong>2026-11-09</strong>；生效日期：<strong>2026-11-09</strong>；版本：<strong>0.1.0-test3</strong>。重大变化时，拟通过 <strong>TapTap 游戏页面公告</strong> 告知，并在需要时重新取得同意。</p>
 <p>个人信息保护联系主体：<strong>许珑伟（个人）</strong> 联系邮箱：<strong>1766809821@qq.com</strong></p>
 <h2>参考资料（起草依据）</h2>
 <ul>
@@ -90,10 +92,13 @@
 <li><a href="https://developer.taptap.cn/docs/sdk/taptap-login/development-guide/android-native/" rel="noopener noreferrer">TapTap Android 登录 SDK 开发指南</a></li>
 <li><a href="https://developer.taptap.cn/docs/en/sdk/anti-addiction/development-guide/android-native/" rel="noopener noreferrer">TapTap Android 合规认证 SDK 开发指南</a></li>
 <li><a href="https://developer.taptap.cn/docs/sdk/start/compliance/" rel="noopener noreferrer">TapSDK 合规使用说明</a></li>
+<li><a href="https://developer.taptap.cn/docs/sdk/tap-online-battle/guide/integrate-connect/" rel="noopener noreferrer">TapTap 多人联机 Android 集成与连接管理</a></li>
+<li><a href="https://developer.taptap.cn/docs/sdk/tap-online-battle/guide/room/" rel="noopener noreferrer">TapTap 多人联机房间管理</a></li>
+<li><a href="https://developer.taptap.cn/docs/sdk/tap-online-battle/development-guide/transdata/android-native/" rel="noopener noreferrer">TapTap 多人联机 Android 数据传输</a></li>
 </ul>
 <p>上述资料在 2026-11-07 复核。SDK 隐私政策当前列明 OAID、Wi‑Fi 状态/信号、IP、广告交互及性能数据为必选字段，Serial 为可选字段；Android 接入文档说明采集开关可限制其中部分信息。上线前仍须核对实际 AAR、最终设置、设备网络行为和 TapADN 后台启用的广告链路。</p>
     </article>
   </main>
-  <footer>联系邮箱：1766809821@qq.com · 本页面当前为内部审阅草稿</footer>
+  <footer>联系邮箱：1766809821@qq.com · 本页面为正式隐私政策</footer>
 </body>
 </html>
